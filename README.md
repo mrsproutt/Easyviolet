@@ -1,15 +1,20 @@
 <h1 align="center">Easyviolet</h1>
+
+> [!WARNING]
+> Easyviolet is out of date and no longer maintained.
+> I would recomend checking out [chemicaljs](https://github.com/chemicaljs/chemical) or [lethaljs](https://github.com/simplyrohan/lethal-js) as easy to use alternatives to easyviolet.
+
 <p align="center">An easy way to use the proxy <a href="https://github.com/titaniumnetwork-dev/Ultraviolet">Ultraviolet</a>. Easyviolet allows you to setup and configure the proxy Ultraviolet using one line of code and still have Ultraviolet's full functionality and customizability.</p>
 
 <h2 align="center">Installation</h2>
 
 ```bash
-$ npm install github:Russell2259/Easyviolet
+$ npm install github:mrsproutt/Easyviolet
 ```
 
 <h2 align="center">Demo</h2>
 
-You can see more examples [here](https://github.com/Russell2259/Easyviolet/tree/main/examples).
+You can see more examples [here](https://github.com/mrsproutt/Easyviolet/tree/main/examples).
 ```javascript
 import Easyviolet from 'easyviolet';
 import http from 'node:http';
@@ -93,4 +98,4 @@ Easyviolet.config; // The configuration passed down from the node process in jso
 <p>The two primary libraries <a href="https://github.com/titaniumnetwork-dev/Ultraviolet">ultraviolet</a> and <a href="https://github.com/tomphttp/bare-server-node">bare server node</a> were not developed by me and easyviolet was only intended to be an easier way to use the ultraviolet proxy.</p>
 
 <p>Thanks again to all of these amazing contributors for helping develop easyviolet</p>
-<a href="https://github.com/Russell2259/Easyviolet/graphs/contributors"><img src="https://contrib.rocks/image?repo=Russell2259/Easyviolet#"/></a>
+<a href="https://github.com/mrsproutt/Easyviolet/graphs/contributors"><img src="https://contrib.rocks/image?repo=mrsproutt/Easyviolet#"/></a>
